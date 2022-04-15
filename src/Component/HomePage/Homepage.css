@@ -1,0 +1,322 @@
+.home{
+    width: 100%;
+    height: 100vh;
+}
+.home-container{
+    margin-top: 10rem;
+}
+.home-content h4{
+ text-align: center;
+ font-size: 2.2rem;
+ color: #65c3ef;
+ font-weight: 500;
+ text-transform: uppercase;
+}
+.home-content h2{
+    text-align: center;
+    margin: 0.5rem 0;
+    font-size: 3.5rem;
+    color: #000;
+    font-weight: 900;
+    letter-spacing: 0rem;
+   }
+
+   .home-content p{
+       width: 60%;
+       margin-top: 0.6rem;
+    margin: 1.6rem auto;
+    font-size: 1.5rem;
+    color: rgb(139, 138, 138);
+    font-weight: 500;
+   }
+
+   /*--------------------------- Home Content   ----------------------------------------------  */
+
+   /*-------------------------- Home Nav Content ----------------------------------------------- */
+
+   .home-nav{
+       width: 95%;
+       height: 100vh;
+       margin: 0 auto;
+   }
+   .home-nav-container{
+       margin-top: 4rem;
+       width: 100%;
+       height: 90px;
+       line-height: 90px;
+       background:linear-gradient(to right,#89CFF0,#6495ED);
+       border-radius:0.7rem;
+       display: flex;
+   }
+   .logo{
+       padding-top: 0.8rem;
+       padding-left: 3rem;
+       cursor: pointer;
+   }
+   .input-search{
+       margin: 0 auto;
+   }
+   .input-search input{
+       padding: 1.4rem 16rem;
+       background: transparent;
+       outline: none;
+       border-radius: 0.7rem;
+       border: none;
+    backdrop-filter: sepia(33%);
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 15rem;
+   }
+   .input-search input::placeholder{
+       color: #fff;
+       z-index: 20;
+       font-size: 1.2rem;
+       font-weight: 500;
+       position: relative;
+   }
+   .icons{
+       width: 30px;
+       position: absolute;
+       left: 31rem;
+       padding-top: 2rem;
+   }
+   .home-nav-container-right ul{
+       display: flex;
+       margin-right:2rem ;
+   }
+   .home-nav-container-right ul li{
+       list-style: none;
+   }
+   .home-nav-container-right ul li a{
+       font-size: 1.4rem;
+       text-decoration: none;
+       padding: 2.5rem;
+       font-weight: 500;
+       color: #fff;
+   }
+   .user{
+       
+       margin-top: 0.8rem;
+       margin-right: 2rem;
+       display: flex;
+   }
+   .user img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit:cover;
+  margin-top: -1.9rem;
+   }
+   .user1{
+
+    margin-top: 0.8rem;
+    margin-right: 2rem;
+    display: flex;
+   }
+   .user1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-top: 1.9rem;
+   }
+
+   /*-------------------------------- User Content         ------------------------------------------  */
+
+   .home-main{
+       width: 100%;
+       height: 100%;
+       /* border-right: 1px solid black; */
+   }
+   .home-container-items{
+       width: 100%;
+       display: flex;
+    }
+    .home-profile-container{
+        width: 23%;
+        margin-left: 5rem;
+        
+        border-right: 1px solid rgb(183, 180, 180);
+        
+    }
+    .user{
+        margin-top: 3rem;
+    }
+    
+    
+    .user1 span{
+        margin-left: 2rem;
+       font-size: 1.4rem;
+       font-weight: 500;
+       margin-top: 2.3rem;
+   }
+   .home-git{
+       display: flex;
+       margin-left: 5rem;
+       margin-top: -1rem;
+   }
+   .home-git p{
+       color: darkgrey;
+       margin-left: 0.5rem;
+   }
+   .home-main-btn{
+       margin-top: 3rem;
+       /* margin-left: 5rem; */
+   }
+   .project-btn{
+       display: flex;
+       padding: 0.8rem 6rem;
+       border-radius: 0.8rem;
+       background:linear-gradient(to left,#89CFF0,#6495ED);
+       outline: none;
+       color: #fff;
+       font-size: 1.5rem;
+       font-weight: 600;
+       border: 1px solid lightgrey;
+   }
+   .invite-btn{
+       margin-top: 1.5rem;
+    padding: 0.8rem 6rem;
+    border-radius: 0.8rem;
+    /* background:linear-gradient(to left,#89CFF0,#6495ED); */
+    border: 1px solid lightgrey;
+    outline: none;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(77, 76, 76);
+   }
+   .user-membership{
+       display: flex;
+       /* margin-left: 5rem;  */
+       margin-top: 3rem;
+   }
+   .icon-right{
+       width: 45px;
+       color: darkgray;
+   }
+   .user-membership p{
+       font-size: 1.5rem;
+       font-weight: 800;
+       color: darkgrey;
+       margin-left: 1.3rem;
+       margin-top: 0.6rem;
+   }
+   .footer{
+       margin-top: 1rem !important;
+   }
+
+   /*-------------------------------------------- Product --------------------------------------  */
+   .home-project-container{
+       width:46%;
+       border: 1px;
+       border-right: 1px solid rgb(183, 180, 180);
+    }
+    .project-items{
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       margin:2rem 1rem;
+   }
+   .project-items h3{
+       margin-top: 0.7rem;
+       font-size: 1.8rem;
+       font-weight: 800;
+       color: rgb(77, 76, 76);
+   }
+   .select-project-items{
+       margin-left: -11rem;
+       padding: 0.7rem 2rem;
+       outline: none;
+       border-radius: 10px;
+       background-color: transparent;
+       font-size: 1.4rem;
+       font-weight: 600;
+       color: rgb(77, 76, 76);
+   }
+   .project-work{
+       margin-top: 2.5rem;
+   }
+   .homePageCart .cart{
+       display: flex;
+       justify-content: space-between;
+   }
+   .cart .img-icon{
+       margin-left: 0.8rem;
+       display: flex;
+   }
+    .cart .img-icon img{
+        width: 15px;
+    }
+    .cart .img-icon h5{
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        text-transform: capitalize;
+        margin-top: 0.6rem;
+        color: rgb(77, 76, 76);
+    }
+    .visit-site-icon{
+        display: flex;
+        margin-top: 1rem;
+    }
+    .visit-site-icon p{
+        font-size: 1.2rem;
+        color: rgb(133, 130, 130);
+    }
+    .site-icons{
+        width: 30px;
+        margin-top: -0.3rem;
+        color: gold;
+    }
+    .cart-footer{
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 3rem;
+    }
+    .cart-footer-items{
+     display: flex;
+     justify-content: space-between;
+    }
+    .github-icons{
+        display: flex;
+    }
+    .github-icons p{
+        margin-top: 0.3rem;
+        font-size: 0.9rem;
+        color: rgb(136, 134, 134);
+    }
+
+
+    /*----------------------------------- Activity -------------------------------------  */
+
+    .home-activity{
+        width: 24%;
+    }
+
+    .activity-heading h4{
+        margin: 2.94rem 0;
+        margin-left: 1.5rem;
+        font-size: 1.6rem;
+        color: rgb(75, 73, 73);
+        font-weight: 600;
+        
+    }
+    .home-activity{
+        display: flex;
+        margin-left: 2rem;
+        overflow: hidden;
+    }
+    .home-activity img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-top: 0.8rem;
+}
+.activity-name{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
