@@ -10,13 +10,12 @@ function ActivityCard(props) {
       </div>
       <div className="activity-name">
         <h5>{props.name}</h5>
-
       <p>{props.Time}</p>
       </div>
       </div>
-      <p>{props.message}</p>
+      <p className='activity-message'>{props.message}</p>
     </div>
-    <hr />
+    <hr className='hr'/>
     </>
   )
 }

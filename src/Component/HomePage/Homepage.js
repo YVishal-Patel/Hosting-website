@@ -2,6 +2,8 @@ import React from 'react'
 import './Homepage.css'
 import img1 from '../Navbar/NavbarAsset/logo1.png'
 import user1 from '../Asset/user1.jpg'
+import user2 from '../Asset/user2.jpg'
+import user3 from '../Asset/user3.jpg'
 import git from '../Asset/git32.png'
 import book from '../Asset/book1.png'
 
@@ -104,11 +106,10 @@ function Homepage() {
                 <h4>Activity feed</h4>
               </div>
                 <ActivityCard userImg={user1} name="you"  Time={"3h"}  message={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo!"} />
-                <ActivityCard  userImg={user1} name="Tanya Pena"  Time={"3h"} message={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo!"}  />
-                <ActivityCard  userImg={user1} name="you" Time={"3h"} message={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo!"} />
-                <ActivityCard userImg={user1}  name="Courtney Nguyen" Time={"3h"} message={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo!"} />
-                <ActivityCard userImg={user1} name="you" Time={"3h"} message={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo!"} />
-                <ActivityCard  userImg={user1} name="Guy Webb" Time={"3h"} message={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo!"}  />
+                <ActivityCard  userImg={user2} name="Tanya Pena"  Time={"3h"} message={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo!"}  />
+                <ActivityCard  userImg={user3} name="you" Time={"3h"} message={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo!"} />
+                <ActivityCard userImg={user2}  name="Courtney Nguyen" Time={"3h"} message={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo!"} />
+                <ActivityCard userImg={user3} name="you" Time={"3h"} message={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, illo!"} />
             </div>
           </div>
           </div>
