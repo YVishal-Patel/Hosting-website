@@ -9,13 +9,13 @@ import Support from './Component/Support/Support';
 
 const App = () =>{
 return(<>
-<Navbar />
-<Homepage />
-<Deploy />
-<About />
-<Learn />
+{/* <Navbar /> */}
+{/* <Homepage /> */}
+{/* <Deploy /> */}
+{/* <About /> */}
+{/* <Learn /> */}
 <Support />
-<Footer />
+{/* <Footer /> */}
 </>)
 }
 export default App;

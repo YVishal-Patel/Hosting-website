@@ -13,7 +13,7 @@ function Support() {
               <h4>Award Winning Support</h4>
               <h2>We're here to help</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam debitis eos vero perferendis optio culpa natus, aperiam, quas vitae, atque aliquid provident autem ex nemo aliquam ipsam blanditiis! Earum, dolorem?</p>
-              <button className='my-btn'>Visit the help center</button>
+              <button className='Support-btn'>Visit the help center</button>
           </div>
       </div>
   </div>

@@ -10,7 +10,7 @@ const Navbar =()=>{
             </div>
             <div className="nav-items-left">
                 <ul>
-                    <li><a href="#">Product</a></li>
+                    <li><a href="#about">Product</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Market Place</a></li>
                     <li><a href="#">Company</a></li>
